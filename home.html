@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Rock Paper Scissors </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1> Rock Paper Scissors </h1>
+        </header>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="https://umd.edu/academics/colleges-and-schools"> UMD </a></li>
+                <li><a href="https://ischool.umd.edu/academics/"> INFO </a></li>
+                <li><a href="https://ischool.umd.edu/academics/bachelors-programs/bachelor-of-science-in-information-science-college-park/curriculum-cognate-areas/"> Curriculum </a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+        <div class="main-content">
+            <h2> Make your choice </h2> 
+            <br>
+            <form method="get" action="/lab3/shoot.html">
+                <div class="form">
+                    <label for="name"> Name </label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="choice"> Choice </label>
+                    <select id="choice" name="choice">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                    <br><br><br>
+                    <input type="submit" value="Shoot!"/>
+                <img src="https://cdn.custom-cursor.com/packs/7860/cute-sanrio-sweet-coron-pack.png" 
+                style="width:7%; display:inline-block;"> 
+                </div>
+                <br>
+            </form>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <h2> Rules </h2> 
+            <h3> You must choose rock, paper, or scissors. </h3>
+            <p><b> The combos are as follows: </b></p>
+            <p>
+            <ul>
+                <li> Rock beats scissors </li>
+                <li> Scissors beats paper </li>
+                <li> Paper beats rock </li>
+            </ul>
+        </div>
+        </div>
+
+        
+
+        <footer>
+            <p> Copyright @ 2025. All rights reserved. </p>
+        </footer>
+
+    </body>
+
+</html>
